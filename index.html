@@ -4,44 +4,87 @@
         <meta charset="utf-8">
         <meta name="auther" content="Jannalin">
         <meta name="description" content="Like a Cat">
-        <meta name="keywords" content="Breeds, cat">
+        <meta name="description" content="I like a cat">
+        <meta name="keyword" content="Breeds, cat">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
         <title>Advance CSS</title>
     </head>
     <body>
-        <h1>Breeds of Cat</h1>
-        <hr color="red" />
-        <h2><font color="navy"> Breeds of Cat in Thailand</font></h2>
-        <!--List Tag-->
-        <ul type="circle"><!--UL:Un-Ordered List as circle, square-->
-            <li>Siamese</li>
-            <li>Korat</li>
-            <li>Khao Manee</li>
+        <h1>Breeds of cat</h1>
+        <hr />
+        <h2>สายพันธุ์แมว <span class="text1">(Breeds of cat)</span> ในประเทศไทย</h2>
+        <!-- List Tag -->
+        <ul type="square"> <!--UL:Un-ordered List as circle, square -->
+            <li>วิเชียรมาศ<span class="text2">(Siamese)</span></li>
+            <li>โคราช<span class="text2">(Korat)</span></i></li>
+            <li>ขาวมณี<span class="text2">(Khao Manee)</span></li>
         </ul>
-        <h2><font color="navy">Breeds of Cat in Other</font></h2>
-        <!--List Tag-->
-        <ul type="circle"><!--UL:Un-Ordered List as circle, square-->
-            <li>Persian</li>
-            <li>American Shorthair</li>
-            <li>Scottish Fold</li>
-            <li>British Shorthair</li>
-            <li>Exotic</li>
-            <li>Main Coon</li>
-            <li>Bengal</li>
+        <h2><span class="text3">สายพันธุ์แมว</span><span class="text2">(Breeds of cat)</span> ในต่างประเทศ</h2>
+        <ol type="i"><!--  OL:Ordered List -->
+            <li>แมวเปอร์เซีย (Persian)</li>
+            <li>แมวอเมริกัน ชอร์ตแฮร์ (American Shorthair)</li>
+            <li>แมวสก็อตติช โฟลด์ (Scottish Fold)</li>
+            <li>แมวบริติช ชอร์ตแฮร์ (British Shorthair)</li>
+            <li>แมวเอ็กโซติก (Exotic)</li>
+            <li>แมวเมนคูน (Main Coon)</li>
+            <li>แมวเบงกอล (Bengal)</li>
         </ol>
+        <section class="services">
+            <div class="container">
+                <div class="heading">
+                    <h1>Softwar Web Development</h1>
+                </div>
 
-        <h2><font color="navy"> List of National Capital </font></h2>
-        <dl><!--DT:Definition List-->
-            <dt>Bangkok, Thailand</dt><!--DT:Definition Term-->
-            <dd>Thailand, (Thai : ประเทศไทย)</dd><!--DD:Definition Details-->
-            
-            <dt>Soeul, South Korea</dt>
-            <dd>South Korea, (South Korea : เกาหลีใต้)</dd>
+        <h2 class="text4">List of national capitals</h2>
+        <dl>
+            <dt>Bangkok,Thailand</dt><!--DT:Definition Terms -->
+            <dd>Thailand (Thai: ประเทศไทย), formerly known as Siam,
+                and officially the Kingdom of Thailand</dd><!--DD:Definition Details -->
+                <div class="content">
+                    <div class="box">
+                        <div class="inner">
+                            <div class="icon"><i class="fas fa-laptop"></i></div>
+                            <h3>Soft Web Development</h3>
+                            <p>Every web Development must have a basic
+                                understanding of HTML, CSS, and Javascript
+                            </p>
+                        </div>
+                    </div>
 
-            <dt>Tokyo, Japan</dt>
-            <dd>Tokyo, Japan, (Japan : ญี่ปุ่น)</dd>
+            <dt>London,United kingdom</dt>
+            <dd>The United Kingdom of Great Britain and Northern Ireland,
+                commonly known as the United Kingdom (UK) or Britain</dd>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="icon"><i class="fab fa-vuejs"></i></div>
+                            <h3>Vue 3</h3>
+                            <p>Vue 3 Vue (pronounced /vju/, like view) is a progressive
+                               framework for building user interfaces
+                            </p>
+                        </div>
+                    </div>
 
-
+            <dt>Washington, D.C. ,United state</dt>
+            <dd>The United States of America (U.S.A. or USA),
+                commonly known as the United States (U.S. or US) or America,
+                is a country primarily located in North America.</dd>
         </dl>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="icon"><i class="fab fa-angular"></i></div>
+                            <h3>Angular</h3>
+                            <p>DEVELOP ACROSS ALL PLATFORMS
+                                Learn one way to build applications with Angular and reuse your code and abilities to build apps 
+                                for any deployment target. For web, mobile web, native mobile and native desktop.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </body>
-</html>
+</html> 
